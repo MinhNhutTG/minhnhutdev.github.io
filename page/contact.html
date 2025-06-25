@@ -1,0 +1,79 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên Hệ - MinhNhut Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MINHNHUTDEV</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="../index.html">Trang Chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Giới Thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Bài Viết</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Dự Án</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Liên Hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container my-5 flex-grow-1">
+    <h2 class="mb-4 text-center text-white">Liên Hệ Với Mình</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label text-white">Họ và tên</label>
+            <input type="text" class="form-control" id="name" placeholder="Nhập tên của bạn">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-white">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-white">Nội dung</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Lời nhắn gửi đến mình..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Gửi</button>
+        </form>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+          <p class="mb-2 text-white">Hoặc liên hệ trực tiếp qua:</p>
+          <a href="https://www.facebook.com/minhnhutsoftware" class="btn btn-outline-primary me-2" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+          </a>
+          <a href="https://zalo.me/0385180001" class="btn btn-outline-success me-2" target="_blank">
+            <i class="fas fa-phone"></i> Zalo
+          </a>
+          <a href="https://github.com/MinhNhutTG" class="btn btn-outline-dark text-white border-secondary"
+            target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <small>&copy; 2025 MinhNhut Code. All rights reserved.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
